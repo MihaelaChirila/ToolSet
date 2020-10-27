@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Tool Set</title>
+
+	<style>
+
+	p{
+		text-align: center;
+		font-size: 200%;
+		font-family:georgia;
+	}	
+	.container{
+		width: 90%;
+		padding: 20px;
+		margin: 100px auto;	 
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+	
+
+	.box{
+		width: 250px;
+		margin: 0 10px;
+		box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+		transition: 1s;
+
+	}
+	.box img{
+		display: block;
+		width:100%;
+		border-radius: 5px;
+	}
+	.box:hover{
+		transform: scale(1.3);
+		z-index: 2;
+	}
+	</style>
+</head>
+
+<header>
+	<p><b>Tool Set</b></p>
+	</header>
+<body>
+	<div class="container">
+		<div class="box">
+			<a href="https://www.oracle.com/ro/java/technologies/javase/javase-jdk8-downloads.html">
+			<img src="java8.png">
+		</a>
+		</div>
+		<div class="box">
+			<a href="https://www.selenium.dev/">
+			<img src="selenium.png">
+		</a>
+		</div>
+		<div class="box">
+			<a href="https://git-scm.com/downloads">
+			<img src="git logo.png">
+		</a>
+		</div>
+		<div class="box">
+			<a href="http://maven.apache.org/">
+			<img src="maven.png">
+		</a>
+		</div>
+		<div class="box">
+			<a href="https://dev.mysql.com/downloads/">
+			<img src="mysql.png">
+		</a>
+		</div>
+		<div class="box">
+			<a href="https://www.jetbrains.com/">
+			<img src="intellij logo.png">
+		</a>
+		</div>
+		<div class="box">
+			<a href="https://testng.org/doc/download.html">
+			<img src="testng logo.png">
+		</a>
+		</div>
+	
+	</div>
+</body>
+</html>
